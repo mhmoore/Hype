@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A5A8947823144191000A8348 /* HypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8947723144191000A8348 /* HypeTableViewController.swift */; };
 		A5A8947A23144239000A8348 /* Hype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8947923144239000A8348 /* Hype.swift */; };
+		A5A8947C23144A5B000A8348 /* HypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8947B23144A5B000A8348 /* HypeController.swift */; };
 		A5E9518623143A0500448B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E9518523143A0500448B92 /* AppDelegate.swift */; };
 		A5E9518B23143A0500448B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E9518923143A0500448B92 /* Main.storyboard */; };
 		A5E9518D23143A0600448B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E9518C23143A0600448B92 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		A5A8947723144191000A8348 /* HypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeTableViewController.swift; sourceTree = "<group>"; };
 		A5A8947923144239000A8348 /* Hype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hype.swift; sourceTree = "<group>"; };
+		A5A8947B23144A5B000A8348 /* HypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeController.swift; sourceTree = "<group>"; };
 		A5E9518223143A0500448B92 /* Hype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E9518523143A0500448B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E9518A23143A0500448B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		A5A894752314417A000A8348 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A5A8947B23144A5B000A8348 /* HypeController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E9518623143A0500448B92 /* AppDelegate.swift in Sources */,
+				A5A8947C23144A5B000A8348 /* HypeController.swift in Sources */,
 				A5A8947823144191000A8348 /* HypeTableViewController.swift in Sources */,
 				A5A8947A23144239000A8348 /* Hype.swift in Sources */,
 			);

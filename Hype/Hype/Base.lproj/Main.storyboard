@@ -22,7 +22,11 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="HypeType" id="hp0-Vg-g9P">
-                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="KLi-Or-HKU"/>
+                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="KLi-Or-HKU">
+                                        <connections>
+                                            <action selector="addButtonTapped:" destination="x98-bW-Til" id="zA4-R3-ial"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </navigationItem>
                             </items>
                         </navigationBar>
