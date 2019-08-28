@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51FBD452315A9B90092535B /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FBD442315A9B90092535B /* DateHelper.swift */; };
 		A5A8947823144191000A8348 /* HypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8947723144191000A8348 /* HypeTableViewController.swift */; };
 		A5A8947A23144239000A8348 /* Hype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8947923144239000A8348 /* Hype.swift */; };
 		A5A8947C23144A5B000A8348 /* HypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8947B23144A5B000A8348 /* HypeController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51FBD442315A9B90092535B /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		A5A8947723144191000A8348 /* HypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeTableViewController.swift; sourceTree = "<group>"; };
 		A5A8947923144239000A8348 /* Hype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hype.swift; sourceTree = "<group>"; };
 		A5A8947B23144A5B000A8348 /* HypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A51FBD432315A9970092535B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A51FBD442315A9B90092535B /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		A5A894732314416D000A8348 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		A5E9518423143A0500448B92 /* Hype */ = {
 			isa = PBXGroup;
 			children = (
+				A51FBD432315A9970092535B /* Helpers */,
 				A5A8947623144183000A8348 /* View Controller */,
 				A5A894752314417A000A8348 /* Model Controller */,
 				A5A8947423144175000A8348 /* Model */,
@@ -149,6 +160,9 @@
 					A5E9518123143A0500448B92 = {
 						CreatedOnToolsVersion = 10.3;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -195,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51FBD452315A9B90092535B /* DateHelper.swift in Sources */,
 				A5E9518623143A0500448B92 /* AppDelegate.swift in Sources */,
 				A5A8947C23144A5B000A8348 /* HypeController.swift in Sources */,
 				A5A8947823144191000A8348 /* HypeTableViewController.swift in Sources */,
